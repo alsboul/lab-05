@@ -1,0 +1,67 @@
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+
+mark {
+	background-color: transparent;
+	color: inherit;
+}
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19pt;
+    font-weight: 300;
+    line-height: 1.75em;
+    color: #888;
+}
+input, textarea, select {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19pt;
+    font-weight: 300;
+    line-height: 1.75em;
+    color: #888;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    color: #666;
+    line-height: 1.5em;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+    h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
+        color: #333;
+    }
+    
+		h2.alt {
+			color: #888;
+		}
+
+			h2.alt strong {
+				color: #666;
+			}
+            strong, b {
+                font-weight: 300;
+                color: #666;
+            }
+        
+            em, i {
+                font-style: italic;
+            }
+            a:hover {
+                color: #E27689;
+                border-bottom-color: rgba(255, 255, 255, 0);
+            }
+            hr {
+                border: 0;
+                border-top: solid 1px #ddd;
+            }
+            .image.avatar48 {
+                background: #f00;
+            }                    
